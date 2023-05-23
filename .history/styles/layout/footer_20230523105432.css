@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    border-top: 1px solid black;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.name--footer {
+    margin: 40px 555px 20px 180px;
+}
+
+footer p {
+    margin: 0 0 40px 180px;
+}
+
+.footer__column {
+    width: 50%;
+}
+
+.footer__icons {
+    text-align: center;
+}

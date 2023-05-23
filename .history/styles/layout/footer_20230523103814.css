@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.name--footer {
+    margin: 40px 0 20px 0;
+    padding: 555px;
+    color: blue;
+}
+
+footer p {
+    margin-left: 180px;
+}

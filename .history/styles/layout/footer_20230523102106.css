@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+ 
+    box-sizing: border-box;
+    /* position: absolute; */
+    align-items: center;
+
+}

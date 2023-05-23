@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.name--footer {
+    margin: 40px 0 20px 0;
+    padding: 5px;
+}
+
+footer p {
+    margin-left: 180px;
+}

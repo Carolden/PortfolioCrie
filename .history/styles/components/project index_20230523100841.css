@@ -1,0 +1,29 @@
+.project__h2 {
+    margin-bottom: 80px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project__index {
+    border: 1px solid #EAEAEA;
+    margin: 0 290px 20px 290px;
+    display: flex;
+    background-color: #FAFAFA;
+}
+
+.project__icon {
+    font-size: 80px;
+    padding: 40px 20px 40px 40px;
+    color: #E39600;
+}
+
+.project__h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 40px 0 20px 20px;
+}
+
+.project__p {
+    padding: 0 40px 40px 20px;
+}
+

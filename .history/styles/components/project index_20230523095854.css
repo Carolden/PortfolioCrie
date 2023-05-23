@@ -1,0 +1,16 @@
+.h2 {
+    padding-bottom: 80px;
+    font-size: 24px;
+}
+
+.project__index {
+    border: 1px solid #EAEAEA;
+    margin: 0 290px 20px 290px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.python {
+    font-size: 80px;
+}
+

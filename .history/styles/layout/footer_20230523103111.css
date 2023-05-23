@@ -1,0 +1,13 @@
+.footer {
+    /* display: flex; */
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.name--footer {
+    margin: 40px 0 20px 180px;
+}
+
+.footer__p {
+    margin-left: 180px;
+}
