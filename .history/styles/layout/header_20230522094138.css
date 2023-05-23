@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 100%;
+    left: 0px;
+    top: 4px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    /* position: absolute; */
+    align-items: center;
+    border-top: 4px;
+    border-image: linear-gradient(to right, #ff0000, #0000ff) 1;
+    border-style: solid;
+}

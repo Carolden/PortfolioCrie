@@ -1,0 +1,8 @@
+.section__contact {
+    display: flex;  
+    margin: 0 280px 0 280px;
+}
+
+.contact__icon {
+    padding: 30px;
+}

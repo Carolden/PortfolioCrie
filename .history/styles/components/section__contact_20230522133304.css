@@ -1,0 +1,13 @@
+.section__contact {
+    display: flex;  
+    margin: 0 280px 0 280px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact__icon {
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    color: #9D9D9D;
+}

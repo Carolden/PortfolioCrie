@@ -1,0 +1,5 @@
+.section__image {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}

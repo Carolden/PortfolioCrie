@@ -1,0 +1,7 @@
+.section__contact {
+    display: flex;  
+}
+
+.contact__icon {
+    align-items: flex-start;
+}

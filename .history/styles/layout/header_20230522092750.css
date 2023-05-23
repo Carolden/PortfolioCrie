@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 100%;
+    left: 0px;
+    top: 4px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 1px solid;
+    border-color: #EAEAEA;
+    align-items: center;
+    border-top: 4px;
+    border-image-slice: 1 0 0 0;
+    border-image: linear-gradient(to right, #ff0000, #0000ff) 5;
+    /* border-image: linear-gradient(to right, #E39600 0%, #EA4C89 33.33%, #8F48EB 70.83%, #1DA1F2 100%);     */
+
+}

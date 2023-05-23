@@ -1,0 +1,11 @@
+.header__a {
+    padding: 40px;
+    text-decoration: none;
+    color: #6C6C6C;
+    font-size: 18px;
+}
+
+.active {
+    color: #242424;
+    font-weight: 600;
+}
