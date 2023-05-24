@@ -1,0 +1,7 @@
+.about__text {
+    display: flex;
+    padding: 80px 290px 0 290px;
+    /* align-items: center; */
+    flex-direction: column;
+    border-top: 1px solid #EAEAEA;
+}

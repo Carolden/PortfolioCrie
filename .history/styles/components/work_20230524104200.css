@@ -1,0 +1,21 @@
+.work__title {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.work__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.work {
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.work__subtitle {
+    font-size: 18px;
+    font-weight: 600;
+}

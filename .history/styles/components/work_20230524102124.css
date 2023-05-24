@@ -1,0 +1,9 @@
+.work__title {
+    padding-top: 40px;
+}
+
+.work__container {
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+}

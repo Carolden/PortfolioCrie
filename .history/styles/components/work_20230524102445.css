@@ -1,0 +1,11 @@
+.work__title {
+    margin: 40px 0 20 290px;
+    color: bisque;
+}
+
+.work__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 290px;
+    margin-right: 290px;
+}

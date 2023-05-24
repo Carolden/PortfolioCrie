@@ -1,0 +1,10 @@
+.work__title {
+    padding-top: 40px;
+}
+
+.work__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 290px;
+    margin-right: 290px;
+}

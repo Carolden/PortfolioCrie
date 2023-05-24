@@ -1,0 +1,6 @@
+.about__text {
+    display: flex;
+    padding: 0 290px 0 290px;
+    align-items: center;
+    flex-direction: column;
+}

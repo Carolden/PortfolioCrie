@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/layout/footer.css">
     <link rel="stylesheet" href="styles/layout/header.css">
     <link rel="stylesheet" href="styles/layout/index__section.css">
+    <link rel="stylesheet" href="styles/components/about__text.css">
     <link rel="stylesheet" href="styles/components/header__a.css">
     <link rel="stylesheet" href="styles/components/header__nav.css">
     <link rel="stylesheet" href="styles/components/hr.css">
@@ -21,14 +22,13 @@
     <link rel="stylesheet" href="styles/components/section__image.css">
     <link rel="stylesheet" href="styles/components/section__p.css">
     <link rel="stylesheet" href="styles/components/section__title.css">
+    <link rel="stylesheet" href="styles/components/work.css">
     <link rel="stylesheet" href="sobre.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
 
 </head>
 <body>
@@ -40,72 +40,85 @@
         </div>
 
         <nav class="header__nav">
-            <a href="#" class="header__a active">Inicio</a>
-            <a href="sobre.html" class="header__a"> Sobre</a>
+            <a href="index.html" class="header__a">Inicio</a>
+            <a href="sobre.html" class="header__a active"> Sobre</a>
             <a href="#" class="header__a">Projetos</a>
             <a href="#" class="header__a">Contato</a>
         </nav>
 
     </header>
 
-    <section class="index__section">
+    <section>
 
-        <span>
-            <h1 class="section__title">Carlos Oldenburg, estudante de Engenharia de Software</h1>
-        </span>
+        <div class="about__text">
 
-        <div>
-            <img src="images/imagem.jpeg" alt="foto" class="section__image">
+        <h1 class="section__title section--align">Olá, meu nome é Carlos!</h1>
+        <p class="section__p about--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit magna, pretium pellentesque auctor vel, finibus at sapien. Nulla sodales condimentum velit, ut porta tellus semper molestie. Integer aliquet efficitur ex, ut euismod lectus aliquam a. Nullam mattis turpis nec erat vestibulum vehicula. 
+
+            In a velit posuere, pretium ante ut, pellentesque ligula. Nulla rutrum ultrices quam vel laoreet. Fusce ut hendrerit nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed auctor aliquet lorem pharetra pharetra. Sed sed ante placerat, fermentum ante sed, rutrum lectus. Ut non aliquam mi, ut dictum felis.
+            
+            Sed faucibus consequat interdum. Morbi gravida dignissim metus in commodo. Etiam diam ligula, tempus quis nisi et, placerat tincidunt orci. Quisque luctus, nisi a pharetra bibendum, augue metus gravida lectus, ac dapibus lorem magna ac lacus. Vivamus sit amet porttitor est, nec tempus est. 
+            
+            Mauris nec porta magna, rutrum scelerisque odio. Duis maximus venenatis facilisis. Vestibulum dignissim egestas lacinia. Etiam faucibus convallis vulputate. Donec faucibus tincidunt pulvinar. Mauris rhoncus dolor et purus vulputate, non porttitor dolor laoreet.</p>
+
         </div>
 
-        <span class="section__p">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veritatis dolorum dolore molestiae, culpa laborum sint, nulla quibusdam quod voluptas aliquid asperiores alias accusamus nobis eveniet aut perspiciatis eligendi. Tempora.</p>
-        </span>
-
-
-
     </section>
-
-    <div class="section__contact">
-        <i class="fa-brands fa-twitter contact__icon"></i>
-        <i class="fa-brands fa-facebook-f contact__icon"></i>
-        <i class="fa-brands fa-github contact__icon"></i>
-        <a href="#" class="contact__button">Entre em contato</a>
-    </div>
 
     <hr class="hr">
 
-    <section class="last__projects">
+    <section class="work">
+        
+        <h2 class="work__title">Trabalho</h2>
 
-        <h2 class="project__h2 container">Últimos Projetos</h2>
-
-        <div class="project__index">
-
-            <i class="fa-brands fa-python project__icon"></i>
-
-            <div>
-
-                <h3 class="project__h3">Jogos em Python</h3>
-                <p class="project__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro natus dignissimos laboriosam numquam consectetur temporibus nam culpa excepturi, obcaecati tempora repudiandae eveniet, assumenda cupiditate quas quibusdam, ad necessitatibus ipsam.</p>
-
-            </div>
-
+        <div class="work__container">
+            <h3>Virtude Informática</h3>
+            <p>Técnico de informática   -   2020 - </p>    
         </div>
 
-        <div class="project__index">
-
-            <i class="fa-brands fa-html5 project__icon icon--color--pink"></i>
-
-            <div>
-
-                <h3 class="project__h3">Site Crieflix</h3>
-                <p class="project__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro natus dignissimos laboriosam numquam consectetur temporibus nam culpa excepturi, obcaecati tempora repudiandae eveniet, assumenda cupiditate quas quibusdam, ad necessitatibus ipsam.</p>
-
-            </div>
-
+        <div class="work__container">
+            <h3>Sustentare Seguros</h3>
+            <p>Auxiliar Administrativo   -   2019 - 2020</p>
         </div>
+
+        <div class="work__container">
+            <h3>Banrisul</h3>
+            <p>Estagiário   -   2017 - 2019</p>
+        </div>
+
+
+
+
+
+
 
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="footer">
 
@@ -125,14 +138,6 @@
         </div>
 
     </footer>
-
-
-
-
-
-
-
-    
     
 </body>
 </html>

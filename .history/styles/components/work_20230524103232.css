@@ -1,0 +1,16 @@
+.work__title {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.work__container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.work {
+    margin-left: 290px;
+    margin-right: 290px;
+}
