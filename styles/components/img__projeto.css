@@ -1,0 +1,10 @@
+.img__projeto {
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.img--cover {
+    object-fit: cover;
+}

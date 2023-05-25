@@ -1,0 +1,9 @@
+.project__container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.project__container:last-child {
+    padding-bottom: 40px;
+}

@@ -1,0 +1,15 @@
+.img__divisor {
+    padding: 0 290px 0 290px;
+    color: #EAEAEA;
+    width: 100%;
+
+}
+
+.div__divisor {
+    display: flex;
+}
+
+.index--divisor {
+    margin: 80px 0 80px 0;
+    background-color: aquamarine;
+}
