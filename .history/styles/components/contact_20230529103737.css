@@ -41,22 +41,10 @@
 }
 
 .textarea {
-    width: 98%;
-    margin-top: 20px;
-    height: 120px;
+    width: 100%;
 }
 
-.contact--button {
-    align-items: center;
-    justify-content: center;
+.container {
+    box-sizing: border-box;
 }
-
-.buttondiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
 

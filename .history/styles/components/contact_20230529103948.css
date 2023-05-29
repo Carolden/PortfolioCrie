@@ -42,21 +42,10 @@
 
 .textarea {
     width: 98%;
-    margin-top: 20px;
-    height: 120px;
 }
 
-.contact--button {
-    align-items: center;
-    justify-content: center;
+.label--textarea {
+    padding-bottom: 20px;
 }
-
-.buttondiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 
 

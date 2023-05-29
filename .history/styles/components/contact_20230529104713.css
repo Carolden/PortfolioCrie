@@ -49,14 +49,13 @@
 .contact--button {
     align-items: center;
     justify-content: center;
+    display: inline-flex;
+    width: 200px;
 }
-
-.buttondiv {
+.form {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
-
 
 
 

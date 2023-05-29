@@ -48,15 +48,13 @@
 
 .contact--button {
     align-items: center;
-    justify-content: center;
-}
-
-.buttondiv {
+    /* justify-content: center; */
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
+.form {
+    display: flex;
+    flex-direction: column;
+}
 
 
 

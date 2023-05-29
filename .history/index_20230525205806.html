@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
+
 </head>
 <body>
 
@@ -47,24 +48,38 @@
         </div>
 
         <nav class="header__nav">
-            <a href="index.html" class="header__a">Inicio</a>
+            <a href="index.html" class="header__a active">Inicio</a>
             <a href="sobre.html" class="header__a"> Sobre</a>
-            <a href="projetos.html" class="header__a  active">Projetos</a>
+            <a href="projetos.html" class="header__a">Projetos</a>
             <a href="contact.html" class="header__a">Contato</a>
         </nav>
 
     </header>
 
-    <section>
+    <section class="index__section">
 
-        <div class="about__text">
+        <span>
+            <h1 class="section__title">Carlos Oldenburg, estudante de Engenharia de Software</h1>
+        </span>
 
-        <h1 class="section__title section--align">Projetos</h1>
-        <p class="section__p about--p">Meus projetos, clique para saber mais!</p>
-
+        <div>
+            <img src="images/imagem.jpeg" alt="foto" class="section__image">
         </div>
 
+        <span class="section__p">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veritatis dolorum dolore molestiae, culpa laborum sint, nulla quibusdam quod voluptas aliquid asperiores alias accusamus nobis eveniet aut perspiciatis eligendi. Tempora.</p>
+        </span>
+
+
+
     </section>
+
+    <div class="section__contact">
+        <i class="fa-brands fa-twitter contact__icon"></i>
+        <i class="fa-brands fa-facebook-f contact__icon"></i>
+        <i class="fa-brands fa-github contact__icon"></i>
+        <a href="#" class="contact__button">Entre em contato</a>
+    </div>
 
     <div class="div__divisor index--divisor">
 
@@ -72,84 +87,46 @@
 
     </div>
 
-    <section>
+    <section class="last__projects">
 
+        <h2 class="project__h2 container">Últimos Projetos</h2>
 
-    <div class="project__container">
+        <div class="project__index">
 
-        <a href="https://github.com/Carolden/ProjetoJogos" target="_blank" class="project__a">
-            <div class="img__container">
-                
-                <img src="images/projeto1.png" alt="computador" class="img__projeto">
+            <i class="fa-brands fa-python project__icon"></i>
 
-            </div>
+            <div>
 
-            <h2 class="work__title container">Jogos em Python</h2>
-
-            <p class="section__p about--p container">Jogos de adivinhação e forca em Python</p>
-
-        </a>
-
-    </div>
-
-    <div class="project__container">
-        
-        <a href="https://github.com/Carolden/ProjetoPetShop" target="_blank" class="project__a">
-            <div class="img__container">
-                
-                <img src="images/petshop.jpg" alt="computador" class="img__projeto img--cover">
+                <h3 class="project__h3">Jogos em Python</h3>
+                <p class="project__p">Jogos de adivinhação e forca em Python</p>
 
             </div>
 
-            <h2 class="work__title container">Site de Petshop</h2>
+        </div>
 
-            <p class="section__p about--p container">Site de Petshop em HTML e CSS.</p>
+        <div class="project__index">
 
-        </a>
+            <i class="fa-brands fa-html5 project__icon icon--color--pink"></i>
 
-    </div>
+            <div>
 
-    <div class="project__container">
-        
-        <a href="https://github.com/Carolden/CrieFlix" target="_blank" class="project__a">
-            <div class="img__container">
-                
-                <img src="images/crieflix.jpeg" alt="computador" class="img__projeto img--cover">
+                <h3 class="project__h3">Site Crieflix</h3>
+                <p class="project__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro natus dignissimos laboriosam numquam consectetur temporibus nam culpa excepturi, obcaecati tempora repudiandae eveniet, assumenda cupiditate quas quibusdam, ad necessitatibus ipsam.</p>
 
             </div>
 
-            <h2 class="work__title container">CrieFlix</h2>
-
-            <p class="section__p about--p container">Site de séries e filmes baseado na plataforma Netflix em HTML e CSS.</p>
-
-        </a>
-
-    </div>
-
-    <div class="project__container">
-        
-        <a href="https://github.com/Carolden/PortfolioCrie" target="_blank" class="project__a">
-            <div class="img__container">
-                
-                <img src="images/portfolio.jpg" alt="computador" class="img__projeto img--cover">
-
-            </div>
-
-            <h2 class="work__title container">Portfólio CrieTi</h2>
-
-            <p class="section__p about--p container">Modelo de portfólio utilizado neste site.</p>
-
-        </a>
-
-    </div>
+        </div>
 
     </section>
 
     <footer class="footer">
 
         <div class="name__container footer__column">
+''
+            <div class="name__box">
+                <h2 class="name--footer">CARLOS OLDENBURG</h2>
 
-            <h2 class="name__box name--footer">CARLOS OLDENBURG</h2>
+            </div>
             <p class="footer__p">©2022 Todos direitos reservados</p>
 
         </div>
@@ -162,7 +139,7 @@
 
         </div>
 
-    </footer>   
+    </footer>    
     
 </body>
 </html>

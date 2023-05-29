@@ -5,10 +5,11 @@
     border-top: 1px solid #EAEAEA;
     margin-top: 80px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .name--footer {
-    margin: 40px 0px 20px 180px;
+    /* margin: 40px 550px 20px 180px; */
 }
 
 footer p {
@@ -20,6 +21,5 @@ footer p {
 }
 
 .footer__icons {
-    text-align: right;
-    margin-right: 180px;
+    text-align: center;
 }

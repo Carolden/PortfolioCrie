@@ -49,12 +49,7 @@
 .contact--button {
     align-items: center;
     justify-content: center;
-}
-
-.buttondiv {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 

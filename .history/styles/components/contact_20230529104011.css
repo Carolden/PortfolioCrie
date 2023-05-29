@@ -43,18 +43,6 @@
 .textarea {
     width: 98%;
     margin-top: 20px;
-    height: 120px;
-}
-
-.contact--button {
-    align-items: center;
-    justify-content: center;
-}
-
-.buttondiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
